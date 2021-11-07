@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mi_home"
+        android:icon="@drawable/ic_home_outline"
+        android:title="home" />
+    <item
+        android:id="@+id/mi_search"
+        android:icon="@drawable/ic_search"
+        android:title="search" />
+    <item
+        android:id="@+id/mi_video"
+        android:icon="@drawable/ic_video"
+        android:title="video" />
+    <item
+        android:id="@+id/mi_shop"
+        android:icon="@drawable/ic_shop"
+        android:title="shop" />
+    <item
+        android:id="@+id/mi_profile"
+        android:icon="@drawable/ic_person_outline"
+        android:title="profile" />
+</menu>
