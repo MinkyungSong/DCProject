@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ToolbarFont">
+        <item name="android:fontFamily">@font/cookierun_black</item>
+
+    </style>
+</resources>

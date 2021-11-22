@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 // 아무것도 입력 안하면 버튼 비활성화 하는 방법?
-
+                /*
                 String tempId = etId.getText().toString();  // setOnClickListener 안에 있어야 인식
                 String tempPassword = etPassword.getText().toString();  // setOnClickListener 안에 있어야 인식
 
@@ -67,7 +67,9 @@ public class LoginActivity extends AppCompatActivity {
                     builder.setCancelable(false);   // 창 밖 터치시 종료 옵션
                     builder.show(); // show()를 해야 보임
                 };
-
+                 */
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(intent);
             }
         });
 
