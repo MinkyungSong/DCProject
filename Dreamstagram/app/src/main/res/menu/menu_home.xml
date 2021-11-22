@@ -3,18 +3,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/mi_post"
+        android:id="@+id/mi_myClass"
         android:icon="@drawable/ic_post"
-        android:title="post"
-        app:showAsAction="always" />
+        android:title="나의 학급" />
     <item
-        android:id="@+id/mi_activity"
+        android:id="@+id/mi_findClass"
         android:icon="@drawable/ic_heart"
-        android:title="activity"
-        app:showAsAction="always" />
+        android:title="학급 찾기" />
     <item
-        android:id="@+id/mi_message"
+        android:id="@+id/mi_findFriend_home"
         android:icon="@drawable/ic_send"
-        android:title="message"
-        app:showAsAction="always" />
+        android:title="친구찾기" />
 </menu>

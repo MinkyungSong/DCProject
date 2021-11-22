@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                         selectedFragment = 0;
                     }
                     return true;
-                }else if(item.getItemId() == R.id.mi_search){
+                }else if(item.getItemId() == R.id.mi_wall){
                     if(selectedFragment != 1){
                         fragmentTransaction = fragmentManager.beginTransaction();
                         fragmentTransaction.replace(R.id.flMain, searchFragment);
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                         selectedFragment = 1;
                     }
                     return true;
-                }else if(item.getItemId() == R.id.mi_video){
+                }else if(item.getItemId() == R.id.mi_wordCloud){
                     if(selectedFragment != 2){
                         fragmentTransaction = fragmentManager.beginTransaction();
                         fragmentTransaction.replace(R.id.flMain, videoFragment);
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                         selectedFragment = 2;
                     }
                     return true;
-                }else if(item.getItemId() == R.id.mi_shop){
+                }else if(item.getItemId() == R.id.mi_quiz){
                     if(selectedFragment != 3){
                         fragmentTransaction = fragmentManager.beginTransaction();
                         fragmentTransaction.replace(R.id.flMain, shopFragment);
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                         selectedFragment = 3;
                     }
                     return true;
-                }else if(item.getItemId() == R.id.mi_profile){
+                }else if(item.getItemId() == R.id.mi_post){
                     if(selectedFragment != 4){
                         fragmentTransaction = fragmentManager.beginTransaction();
                         fragmentTransaction.replace(R.id.flMain, profileFragment);

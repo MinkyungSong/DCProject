@@ -3,22 +3,22 @@
 
     <item
         android:id="@+id/mi_home"
-        android:icon="@drawable/ic_home_outline"
+        android:icon="@drawable/ic_home_filled"
         android:title="home" />
     <item
-        android:id="@+id/mi_search"
-        android:icon="@drawable/ic_search"
-        android:title="search" />
+        android:id="@+id/mi_wall"
+        android:icon="@drawable/ic_article"
+        android:title="wall" />
     <item
-        android:id="@+id/mi_video"
-        android:icon="@drawable/ic_video"
-        android:title="video" />
+        android:id="@+id/mi_wordCloud"
+        android:icon="@drawable/ic_cloud_filled"
+        android:title="wordCloud" />
     <item
-        android:id="@+id/mi_shop"
-        android:icon="@drawable/ic_shop"
-        android:title="shop" />
+        android:id="@+id/mi_quiz"
+        android:icon="@drawable/ic_podium"
+        android:title="quiz" />
     <item
-        android:id="@+id/mi_profile"
-        android:icon="@drawable/ic_person_outline"
-        android:title="profile" />
+        android:id="@+id/mi_post"
+        android:icon="@drawable/ic_people"
+        android:title="post" />
 </menu>
